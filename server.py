@@ -18,7 +18,7 @@ def sent_detector():
     dominant_emotion = response.get('dominant_emotion')
 
     if dominant_emotion is None:
-        return "Invalid text! Please try again!"
+        return "Invalid input! Try again."
 
     return (
         f"For the given statement, the system response is "
